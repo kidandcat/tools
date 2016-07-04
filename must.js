@@ -8,9 +8,3 @@ const log = (args) => {
     console.log('', args);
   }
 }
-
-const response = (status = 'OK', statusCode = 200, statusMessage = 'Success') => ({
-    statusCode: statusCode,
-    status: status,
-    statusMessage: statusMessage
-})
